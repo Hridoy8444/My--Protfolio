@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -27,9 +28,9 @@ const Header = () => {
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
-                    <li><a>Home</a></li>
+                    <li><Link to={'/'}>Home</Link></li>
                     <li><a>Projects</a></li>
-                    <li><a>About</a></li>
+                    <li><Link to={'/contract'}>Contract Me</Link></li>
                 </ul>
             </div>
 

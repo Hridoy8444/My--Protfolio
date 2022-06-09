@@ -1,12 +1,67 @@
-.bg-img{
+.bg-img {
     background-image: url("../../Images/Home-bg/bg-2.jpg");
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-color: rgba(0, 0, 0, 0.527);
     /* filter: blur(8px); */
-  /* -webkit-filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
 }
-.my-img{
+
+.my-img {
     width: 700px;
     height: 550px;
+}
+
+.project-size {
+    width: 250%;
+}
+
+.carousel-size {
+    width: 15%;
+    height: 250px;
+}
+
+.text-size {
+    width: 40%;
+}
+
+@media only screen and (max-width: 576px) {
+    .banner-container {
+        flex-wrap: wrap;
+        /* flex-direction: column-reverse; */
+
+    }
+
+    .banner-container img {
+        /* width: 400px;
+        height: 350px;
+        border-radius: 10px; */
+        display: none;
+    }
+
+    .banner-text {
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .project-container{
+        flex-wrap: wrap;
+    }
+    .carousel-container{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+    .text-container{
+        width: 30%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .middle-container{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        /* margin-right: 10px; */
+    }
 }
