@@ -58,10 +58,14 @@
         margin-bottom: 20px;
         margin-top: 20px;
     }
+    .middle-project-container{
+        margin-left: 8px;
+    }
     .middle-container{
         width: 100%;
         max-width: 350px;
         height: auto;
-        /* margin-right: 10px; */
+        margin-left: 5px;
+        margin-right: 8px;
     }
 }

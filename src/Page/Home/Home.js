@@ -9,6 +9,7 @@ import p5 from '../../Images/projects/su-1.png';
 import p6 from '../../Images/projects/su-2.png';
 import p7 from '../../Images/projects/sp-1.png';
 import p8 from '../../Images/projects/sp-2.png';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -82,11 +83,12 @@ const Home = () => {
                                         be able to tell you how our service is.
                                     </li>
                                 </ul>
+                                <a href="https://forester-tool.netlify.app/" target="_blank"><button class="btn btn-secondary m-4 pl-16 pr-16">Live</button></a>
                             </div>
 
                         </div>
                     </div>
-                    <div className='flex flex-row  m-4 p-4 project-size ml-64 project-container'>
+                    <div className='flex flex-row  m-4 p-4 project-size ml-64 project-container middle-project-container'>
                         <div class="carousel carousel-size rounded-lg middle-container">
                             <div id="slide1" class="carousel-item relative w-full">
                                 <img src={p5} class="w-full" />
@@ -105,7 +107,7 @@ const Home = () => {
                            
                         </div>
                         <div>
-                            <div className='ml-2 text-size'>
+                            <div className='ml-2 text-size text-container'>
                                 <h2 className='text-2xl font-bold '>Unload Warehouse</h2>
                                 <h2 className='text-xl'>Feature</h2>
                                 <ul className='list-disc ml-4'>
@@ -128,6 +130,7 @@ const Home = () => {
                                         project can be deleted from there.
                                     </li>
                                 </ul>
+                                <a href="https://unload-warehouse.netlify.app/" target="_blank"><button class="btn btn-secondary m-4 pl-16 pr-16">Live</button></a>
                             </div>
 
                         </div>
@@ -171,6 +174,7 @@ const Home = () => {
                                         authentication in a very good way here
                                     </li>
                                 </ul>
+                                <a href="https://simle-sharp-photography.netlify.app/" target="_blank"><button class="btn btn-secondary m-4 pl-16 pr-16">Live</button></a>
                             </div>
 
                         </div>
