@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-black text-white ">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -23,27 +23,16 @@ const Header = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a class="btn btn-ghost normal-case text-xl">Fardous Hossain</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
-                    <li><a>Item 1</a></li>
-                    <li tabindex="0">
-                        <a>
-                            Parent
-                            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
-                        </a>
-                        <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                        </ul>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Home</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>About</a></li>
                 </ul>
             </div>
-            <div class="navbar-end">
-                <a class="btn">Get started</a>
-            </div>
+
         </div>
     );
 };

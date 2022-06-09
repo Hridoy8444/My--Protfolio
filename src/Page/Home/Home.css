@@ -1,0 +1,12 @@
+.bg-img{
+    background-image: url("../../Images/Home-bg/bg-2.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-color: rgba(0, 0, 0, 0.527);
+    /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+}
+.my-img{
+    width: 700px;
+    height: 550px;
+}
