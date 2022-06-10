@@ -16,9 +16,10 @@
     width: 250%;
 }
 
-.carousel-size {
-    width: 15%;
+.carousel-size  {
+    width: 100%;
     height: 250px;
+    border-radius: 10px;
 }
 
 .text-size {

@@ -29,36 +29,8 @@ const Home = () => {
                 <h1 className='text-4xl font-bold text-center mb-8'>Project</h1>
                 <div >
                     <div className='flex flex-row  m-4 p-4 w-auto project-size project-container'>
-                        <div class="carousel carousel-size rounded-lg carousel-container">
-                            <div id="slide1" class="carousel-item relative w-full">
-                                <img src={p1} class="w-full" />
-                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                    <a href="#slide4" class="btn btn-circle">❮</a>
-                                    <a href="#slide2" class="btn btn-circle">❯</a>
-                                </div>
-                            </div>
-                            <div id="slide2" class="carousel-item relative w-full">
-                                <img src={p2} class="w-full" />
-                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                    <a href="#slide1" class="btn btn-circle">❮</a>
-                                    <a href="#slide3" class="btn btn-circle">❯</a>
-                                </div>
-                            </div>
-                            <div id="slide3" class="carousel-item relative w-full">
-                                <img src={p3} class="w-full" />
-                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                    <a href="#slide2" class="btn btn-circle">❮</a>
-                                    <a href="#slide4" class="btn btn-circle">❯</a>
-                                </div>
-                            </div>
-                            <div id="slide4" class="carousel-item relative w-full">
-                                <img src={p4} class="w-full" />
-                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                    <a href="#slide3" class="btn btn-circle">❮</a>
-                                    <a href="#slide1" class="btn btn-circle">❯</a>
-                                </div>
-
-                            </div>
+                        <div>
+                            <img className='carousel-container carousel-size' src={p1} alt="" />
                         </div>
                         <div>
                             <div className='ml-2 text-size text-container'>
@@ -84,27 +56,14 @@ const Home = () => {
                                     </li>
                                 </ul>
                                 <a href="https://forester-tool.netlify.app/" target="_blank"><button class="btn btn-secondary m-4 pl-16 pr-16">Live</button></a>
+                                <Link to={'/forestar'}><button class="btn btn-secondary m-4 pl-16 pr-16">Detail</button></Link>
                             </div>
 
                         </div>
                     </div>
                     <div className='flex flex-row  m-4 p-4 project-size ml-64 project-container middle-project-container'>
-                        <div class="carousel carousel-size rounded-lg middle-container">
-                            <div id="slide1" class="carousel-item relative w-full">
-                                <img src={p5} class="w-full" />
-                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                    <a href="#slide4" class="btn btn-circle">❮</a>
-                                    <a href="#slide2" class="btn btn-circle">❯</a>
-                                </div>
-                            </div>
-                            <div id="slide2" class="carousel-item relative w-full">
-                                <img src={p6} class="w-full" />
-                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                    <a href="#slide1" class="btn btn-circle">❮</a>
-                                    <a href="#slide3" class="btn btn-circle">❯</a>
-                                </div>
-                            </div>
-                           
+                        <div>
+                            <img className='carousel-container carousel-size' src={p5} alt="" />
                         </div>
                         <div>
                             <div className='ml-2 text-size text-container'>
@@ -131,27 +90,14 @@ const Home = () => {
                                     </li>
                                 </ul>
                                 <a href="https://unload-warehouse.netlify.app/" target="_blank"><button class="btn btn-secondary m-4 pl-16 pr-16">Live</button></a>
+                                <Link to={'/unload'}><button class="btn btn-secondary m-4 pl-16 pr-16">Detail</button></Link>
                             </div>
 
                         </div>
                     </div>
                     <div className='flex flex-row  m-4 p-4 project-size project-container'>
-                        <div class="carousel carousel-size rounded-lg carousel-container">
-                            <div id="slide1" class="carousel-item relative w-full">
-                                <img src={p7} class="w-full" />
-                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                    <a href="#slide4" class="btn btn-circle">❮</a>
-                                    <a href="#slide2" class="btn btn-circle">❯</a>
-                                </div>
-                            </div>
-                            <div id="slide2" class="carousel-item relative w-full">
-                                <img src={p8} class="w-full" />
-                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                    <a href="#slide1" class="btn btn-circle">❮</a>
-                                    <a href="#slide3" class="btn btn-circle">❯</a>
-                                </div>
-                            </div>
-
+                        <div>
+                            <img className='carousel-container carousel-size' src={p7} alt="" />
                         </div>
                         <div>
                             <div className='ml-2 text-size text-container'>
@@ -175,6 +121,7 @@ const Home = () => {
                                     </li>
                                 </ul>
                                 <a href="https://simle-sharp-photography.netlify.app/" target="_blank"><button class="btn btn-secondary m-4 pl-16 pr-16">Live</button></a>
+                                <Link to={'/smileharp'}><button class="btn btn-secondary m-4 pl-16 pr-16">Detail</button></Link>
                             </div>
 
                         </div>
