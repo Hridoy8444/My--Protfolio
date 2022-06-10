@@ -12,16 +12,16 @@ const Header = () => {
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-black">
                         <li><Link to={'/'}>Home</Link></li>
                         <li><Link to={'/project'}>Projects</Link></li>
-                        <li><Link to={'/contract'}>Contract Me</Link></li>
+                        <li><Link to={'/contract'}>Contact Me</Link></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Fardous Hossain</a>
+                <Link class="btn btn-ghost normal-case text-xl" to={'/'}>Fardous Hossain</Link>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     <li><Link to={'/'}>Home</Link></li>
                     <li><a>Projects</a></li>
-                    <li><Link to={'/contract'}>Contract Me</Link></li>
+                    <li><Link to={'/contract'}>Contact Me</Link></li>
                 </ul>
             </div>
 
